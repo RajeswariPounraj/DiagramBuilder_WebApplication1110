@@ -39,6 +39,7 @@ UtilityMethods_hideElements = function (elementType, diagramType) {
     else {
         diagramContainer.classList.add(elementType);
     }
+    window.dispatchEvent(new Event('resize'));
 };
 function hideMenubar() {
     UtilityMethods_hideElements('hide-menubar');
