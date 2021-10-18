@@ -42292,6 +42292,11 @@
             in front or behind of another component.
             </summary>
         </member>
+        <member name="P:Syncfusion.Blazor.Popups.SfDialog.IsLoadOnDemand">
+            <summary>
+            Specifies the value that represents whether the Dialog element re-render or not.
+            </summary>
+        </member>
         <member name="M:Syncfusion.Blazor.Popups.SfDialog.GetButton(System.Int32)">
             <summary>
             Returns the dialog button instances by index.
